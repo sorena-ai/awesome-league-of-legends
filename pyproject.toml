@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awesome-league-of-legends"
+version = "0.1.0"
+description = "Curated League of Legends champion and strategy data (combos, builds, guides, playbook)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Sorena AI" }]
+
+[tool.setuptools]
+packages = ["awesome_league_of_legends"]
+
+[tool.setuptools.package-data]
+awesome_league_of_legends = [
+    "champion-combos/*.xml",
+    "champion-builds/**/*.xml",
+    "champion-guide/**/*.xml",
+    "playbook/*.txt",
+]

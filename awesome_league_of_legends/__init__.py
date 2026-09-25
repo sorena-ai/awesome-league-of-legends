@@ -7,7 +7,7 @@ to consumers (for example, the Sensii League of Legends AI Coach).
 
 from pathlib import Path
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def data_dir() -> Path:

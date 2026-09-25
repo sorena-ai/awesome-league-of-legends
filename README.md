@@ -18,7 +18,7 @@ logic here — consumers are expected to load and interpret the files themselves
 ## Install
 
 ```bash
-pip install "awesome-league-of-legends @ git+https://github.com/sorena-ai/awesome-league-of-legends.git@v0.1.0"
+pip install "awesome-league-of-legends @ git+https://github.com/sorena-ai/awesome-league-of-legends.git@v0.1.1"
 ```
 
 ## Usage
